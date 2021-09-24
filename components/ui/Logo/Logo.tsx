@@ -1,21 +1,21 @@
 const Logo = ({ className = '', ...props }) => (
- 
-
-<svg     
-width="415"  
-height="75" 
-xmlns="http://www.w3.org/2000/svg" 
-viewBox="0 0 415 75" 
-fill="none"  
-className={className}
-    {...props}>
-      <defs>
-        <style>.cls-1{isolation:isolate;}.cls-12,.cls-2,.cls-3,.cls-4,.cls-7{fill:#eb5c31;}.cls-3,.cls-7,.cls-8{mix-blend-mode:overlay;}.cls-3,.cls-4,.cls-6{opacity:0.25;}.cls-4,.cls-6{mix-blend-mode:multiply;}.cls-5,.cls-6,.cls-8,.cls-9{fill:#0087c8;}.cls-8{opacity:0.5;}.cls-9{font-size:41.91px;font-family:FuturaPT-ExtraBoldObl, Futura PT;font-weight:800;font-style:oblique;}.cls-10{letter-spacing:-0.02em;}.cls-11{letter-spacing:0em;}.cls-12{letter-spacing:-0.01em;}.cls-13{font-size:18.63px;fill:#010101;font-family:Montserrat-MediumItalic, Montserrat;font-weight:500;font-style:italic;letter-spacing:0.2em;}.cls-14{letter-spacing:0.19em;}.cls-15{letter-spacing:0.19em;}.cls-16{letter-spacing:0.2em;}.cls-17{letter-spacing:0.19em;}</style></defs><g class="cls-1"><g id="Camada_1" data-name="Camada 1"><path class="cls-2" d="M1068.77,538.05a5.09,5.09,0,1,1-9.49-2.54,4.71,4.71,0,0,1,.8-1,5.09,5.09,0,0,1,7.2,0,4.71,4.71,0,0,1,.8,1A5,5,0,0,1,1068.77,538.05Z" transform="translate(-1017.24 -471.91)"/><path class="cls-3" d="M1059.28,540.6a5,5,0,0,1,.8-1.06,5.11,5.11,0,0,1,7.2,0,5,5,0,0,1,.8,1.06,5,5,0,0,1-.8,1,5.09,5.09,0,0,1-7.2,0A5,5,0,0,1,1059.28,540.6Z" transform="translate(-1017.24 -471.91)"/><path class="cls-4" d="M1068.08,535.51h-8.8a4.71,4.71,0,0,1,.8-1,5.09,5.09,0,0,1,7.2,0A4.71,4.71,0,0,1,1068.08,535.51Z" transform="translate(-1017.24 -471.91)"/><path class="cls-2" d="M1097.9,538.05a5.09,5.09,0,1,1-10.18,0,5,5,0,0,1,.69-2.54,4.71,4.71,0,0,1,.8-1,5.09,5.09,0,0,1,7.2,0,4.71,4.71,0,0,1,.8,1A5,5,0,0,1,1097.9,538.05Z" transform="translate(-1017.24 -471.91)"/><path class="cls-3" d="M1088.41,540.6a5,5,0,0,1,.8-1.06,5.11,5.11,0,0,1,7.2,0,5,5,0,0,1,.8,1.06,5,5,0,0,1-.8,1,5.09,5.09,0,0,1-7.2,0A5,5,0,0,1,1088.41,540.6Z" transform="translate(-1017.24 -471.91)"/><path class="cls-4" d="M1097.21,535.51h-8.8a4.71,4.71,0,0,1,.8-1,5.09,5.09,0,0,1,7.2,0A4.71,4.71,0,0,1,1097.21,535.51Z" transform="translate(-1017.24 -471.91)"/><path class="cls-5" d="M1047.07,482.09l-2.49,2.54-2.48,2.55-7,7.15a10.11,10.11,0,0,1-2.94-7.15l2.48-2.55,2.48-2.54,7-7.16A10.14,10.14,0,0,1,1047.07,482.09Z" transform="translate(-1017.24 -471.91)"/><polygon class="cls-6" points="29.82 10.18 27.34 12.72 17.39 12.72 19.88 10.18 29.82 10.18"/><path class="cls-2" d="M1115.5,512.61l-11.18,2.55-11.18,2.54-39.37,9h0a10.17,10.17,0,0,1-5.34-9l22.36-5.09,39.37-9A10.2,10.2,0,0,1,1115.5,512.61Z" transform="translate(-1017.24 -471.91)"/><polygon class="cls-4" points="98.25 40.7 87.07 43.25 42.35 43.25 53.54 40.7 98.25 40.7"/><path class="cls-2" d="M1124.33,497.35l-13.88,2.55-13.9,2.54-49.87,9.13a10.16,10.16,0,0,1-5.69-9.13l13.89-2.54,13.89-2.55,49.87-9.13A10.16,10.16,0,0,1,1124.33,497.35Z" transform="translate(-1017.24 -471.91)"/><polygon class="cls-4" points="107.09 25.44 93.2 27.98 37.64 27.98 51.52 25.44 107.09 25.44"/><path class="cls-2" d="M1047.07,482.09h-24.74a5.09,5.09,0,0,1,0-10.18h14.56a10.15,10.15,0,0,1,7.23,3,10.31,10.31,0,0,1,1.58,2.07A10.06,10.06,0,0,1,1047.07,482.09Z" transform="translate(-1017.24 -471.91)"/><path class="cls-7" d="M1045.7,477h-28.46a5.1,5.1,0,0,1,5.09-5.09h14.56a10.15,10.15,0,0,1,7.23,3A10.31,10.31,0,0,1,1045.7,477Z" transform="translate(-1017.24 -471.91)"/><path class="cls-5" d="M1124.33,497.35h-82a10.17,10.17,0,0,1-10.17-10.17h82a10.16,10.16,0,0,1,10.17,10.17Z" transform="translate(-1017.24 -471.91)"/><path class="cls-8" d="M1123,492.26h-89.45a10,10,0,0,1-1.36-5.08h82a10.19,10.19,0,0,1,8.81,5.08Z" transform="translate(-1017.24 -471.91)"/><path class="cls-5" d="M1115.5,512.61h-64.33A10.16,10.16,0,0,1,1041,502.44h64.33a10.17,10.17,0,0,1,4.83,1.21,10.33,10.33,0,0,1,4,3.88A10.15,10.15,0,0,1,1115.5,512.61Z" transform="translate(-1017.24 -471.91)"/><path class="cls-8" d="M1114.14,507.53h-71.79a10.21,10.21,0,0,1-1.36-5.09h64.33a10.17,10.17,0,0,1,4.83,1.21A10.33,10.33,0,0,1,1114.14,507.53Z" transform="translate(-1017.24 -471.91)"/><path class="cls-5" d="M1108.07,522.79a5.09,5.09,0,0,1-5.09,5.09h-44.39a10.08,10.08,0,0,1-4.82-1.22h0a10.17,10.17,0,0,1-5.34-9H1103A5.09,5.09,0,0,1,1108.07,522.79Z" transform="translate(-1017.24 -471.91)"/><path class="cls-8" d="M1108.07,522.79h-58.29a10.16,10.16,0,0,1-1.36-5.09H1103A5.09,5.09,0,0,1,1108.07,522.79Z" transform="translate(-1017.24 -471.91)"/><text class="cls-9" transform="translate(124.36 45.09)">SH<tspan class="cls-10" x="57.29" y="0">O</tspan><tspan class="cls-11" x="90.1" y="0">W</tspan><tspan class="cls-2" x="133.69" y="0">OFER</tspan><tspan class="cls-12" x="241.85" y="0">T</tspan><tspan class="cls-2" x="261.8" y="0">A</tspan></text><text class="cls-13" transform="translate(117.38 70.1)">ENTRO<tspan class="cls-14" x="86.35" y="0">U</tspan><tspan x="104.66" y="0">, </tspan><tspan class="cls-15" x="121.35" y="0">C</tspan><tspan class="cls-16" x="138.26" y="0">OM</tspan><tspan class="cls-17" x="179.14" y="0">P</tspan><tspan class="cls-16" x="196.13" y="0">ROU!</tspan></text></g></g>
-</svg>
-
-
+  <svg
+    width="32"
+    height="32"
+    viewBox="0 0 32 32"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className={className}
+    {...props}
+  >
+    <rect width="100%" height="100%" rx="16" fill="var(--secondary)" />
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M17.6482 10.1305L15.8785 7.02583L7.02979 22.5499H10.5278L17.6482 10.1305ZM19.8798 14.0457L18.11 17.1983L19.394 19.4511H16.8453L15.1056 22.5499H24.7272L19.8798 14.0457Z"
+      fill="var(--primary)"
+    />
+  </svg>
 )
 
 export default Logo
-
-
