@@ -24,7 +24,7 @@ const HomeAllProductsGrid: FC<Props> = ({
           <ul className="mb-10">
             <li className="py-1 text-base font-bold tracking-wide">
               <Link href={getCategoryPath('')}>
-                <a>All Categories</a>
+                <a>Categorias</a>
               </Link>
             </li>
             {categories.map((cat: any) => (
@@ -35,20 +35,7 @@ const HomeAllProductsGrid: FC<Props> = ({
               </li>
             ))}
           </ul>
-          <ul className="">
-            <li className="py-1 text-base font-bold tracking-wide">
-              <Link href={getDesignerPath('')}>
-                <a>All Designers</a>
-              </Link>
-            </li>
-            {brands.flatMap(({ node }: any) => (
-              <li key={node.path} className="py-1 text-accent-8 text-base">
-                <Link href={getDesignerPath(node.path)}>
-                  <a>{node.name}</a>
-                </Link>
-              </li>
-            ))}
-          </ul>
+         
         </div>
       </div>
       <div className="flex-1">
