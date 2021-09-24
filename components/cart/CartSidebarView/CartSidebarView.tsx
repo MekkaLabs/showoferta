@@ -45,10 +45,10 @@ const CartSidebarView: FC = () => {
             <Bag className="absolute" />
           </span>
           <h2 className="pt-6 text-2xl font-bold tracking-wide text-center">
-            Your cart is empty
+            Seu carrinho está vazio
           </h2>
           <p className="text-accent-3 px-10 text-center pt-2">
-            Biscuit oat cake wafer icing ice cream tiramisu pudding cupcake.
+            Encontre o produto que mais te agrada em nossa loja.
           </p>
         </div>
       ) : error ? (
@@ -57,8 +57,7 @@ const CartSidebarView: FC = () => {
             <Cross width={24} height={24} />
           </span>
           <h2 className="pt-6 text-xl font-light text-center">
-            We couldn’t process the purchase. Please check your card information
-            and try again.
+            Não conseguimos validar sua compra. Por Gentileza verifique os dados do seu Cartão.
           </h2>
         </div>
       ) : success ? (
@@ -67,7 +66,7 @@ const CartSidebarView: FC = () => {
             <Check />
           </span>
           <h2 className="pt-6 text-xl font-light text-center">
-            Thank you for your order.
+            Obrigado por sua compra.
           </h2>
         </div>
       ) : (
@@ -76,7 +75,7 @@ const CartSidebarView: FC = () => {
             <Link href="/cart">
               <a>
                 <Text variant="sectionHeading" onClick={handleClose}>
-                  My Cart
+                  Meu Carrinho
                 </Text>
               </a>
             </Link>
@@ -98,12 +97,12 @@ const CartSidebarView: FC = () => {
                 <span>{subTotal}</span>
               </li>
               <li className="flex justify-between py-1">
-                <span>Taxes</span>
-                <span>Calculated at checkout</span>
+                <span>Taxas</span>
+                <span>FREE</span>
               </li>
               <li className="flex justify-between py-1">
-                <span>Shipping</span>
-                <span className="font-bold tracking-wide">FREE</span>
+                <span>Entrega</span>
+                <span className="font-bold tracking-wide">Calculado no Checkout</span>
               </li>
             </ul>
             <div className="flex justify-between border-t border-accent-2 py-3 font-bold mb-2">
@@ -117,7 +116,7 @@ const CartSidebarView: FC = () => {
                 </Button>
               ) : (
                 <Button href="/checkout" Component="a" width="100%">
-                  Proceed to Checkout
+                  Fazer Checkout
                 </Button>
               )}
             </div>
