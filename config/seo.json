@@ -1,14 +1,14 @@
 {
-  "title": "ACME Storefront | Powered by Next.js Commerce",
-  "titleTemplate": "%s - ACME Storefront",
-  "description": "Next.js Commerce - https://www.nextjs.org/commerce",
+  "title": "Show Oferta | Entrou, comprou!",
+  "titleTemplate": "Os melhores produtos para seu conforto",
+  "description": "Um site moderno e inovador com os melhores produtos nacionais e internacionais",
   "openGraph": {
-    "title": "ACME Storefront | Powered by Next.js Commerce",
-    "description": "Next.js Commerce - https://www.nextjs.org/commerce",
+    "title": "Show Oferta | Entrou, comprou!",
+    "description": "Um site moderno e inovador com os melhores produtos nacionais e internacionais",
     "type": "website",
     "locale": "en_IE",
-    "url": "https://nextjs.org/commerce",
-    "site_name": "Next.js Commerce",
+    "url": "https://showoferta.com.br",
+    "site_name": "Show Oferta Commerce",
     "images": [
       {
         "url": "/card.png",
