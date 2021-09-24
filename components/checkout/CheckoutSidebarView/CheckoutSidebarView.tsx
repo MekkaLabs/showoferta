@@ -80,11 +80,11 @@ const CheckoutSidebarView: FC = () => {
             <span>{subTotal}</span>
           </li>
           <li className="flex justify-between py-1">
-            <span>Taxes</span>
-            <span>Calculated at checkout</span>
+            <span>Taxas</span>
+            <span>Calculadas no Checkout/span>
           </li>
           <li className="flex justify-between py-1">
-            <span>Shipping</span>
+            <span>Entrega</span>
             <span className="font-bold tracking-wide">FREE</span>
           </li>
         </ul>
@@ -99,7 +99,7 @@ const CheckoutSidebarView: FC = () => {
             width="100%"
             disabled={!checkoutData?.hasPayment || !checkoutData?.hasShipping}
           >
-            Confirm Purchase
+            Confirmar Compra
           </Button>
         </div>
       </form>

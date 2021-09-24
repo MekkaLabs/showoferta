@@ -16,7 +16,7 @@ const PaymentWidget: FC<ComponentProps> = ({ onClick, isValid }) => {
       <div className="flex flex-1 items-center">
         <CreditCard className="w-5 flex" />
         <span className="ml-5 text-sm text-center font-medium">
-          Add Payment Method
+          Adicionar Método de pagamento
         </span>
         {/* <span>VISA #### #### #### 2345</span> */}
       </div>

@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import type { Page } from '@commerce/types/page'
 import getSlug from '@lib/get-slug'
-import { Github, Vercel } from '@components/icons'
+import { Github, Vercel, Facebook, Instagram } from '@components/icons'
 import { Logo, Container } from '@components/ui'
 import { I18nWidget } from '@components/common'
 import s from './Footer.module.css'
@@ -36,7 +36,7 @@ const Footer: FC<Props> = ({ className, pages }) => {
                 <span className="rounded-full border border-accent-6 mr-2">
                   <Logo />
                 </span>
-                <span>SHOW OFERTAS</span>
+                <span>Show Oferta</span>
               </a>
             </Link>
           </div>
@@ -60,7 +60,8 @@ const Footer: FC<Props> = ({ className, pages }) => {
                 aria-label="Github Repository"
                 href="https://github.com/vercel/commerce"
               >
-                <Github />
+                <Facebook />
+                <Instagram />
               </a>
               <I18nWidget />
             </div>
@@ -71,18 +72,15 @@ const Footer: FC<Props> = ({ className, pages }) => {
             <span>&copy; 2021 Show Ofertas, Inc. Todos os direitos reservados.</span>
           </div>
           <div className="flex items-center text-primary text-sm">
-            <span className="text-primary">Criado por: Mekka Labs</span>
+            <span className="text-primary">Criado por: </span>
             <a
               rel="noopener noreferrer"
               href="https://mekkalabs.com.br"
-              aria-label="Mekkalabs.com Link"
+              aria-label="Mekkalabs.com.br Link"
               target="_blank"
               className="text-primary"
             >
-              <Vercel
-                className="inline-block h-6 ml-3 text-primary"
-                alt="Vercel.com Logo"
-              />
+              MekkaLabs
             </a>
           </div>
         </div>
