@@ -49,7 +49,7 @@ export default function Cart() {
               <Bag className="absolute" />
             </span>
             <h2 className="pt-6 text-2xl font-bold tracking-wide text-center">
-              Your cart is empty
+              Seu Carrinho está vazio
             </h2>
             <p className="text-accent-6 px-10 text-center pt-2">
               Biscuit oat cake wafer icing ice cream tiramisu pudding cupcake.
@@ -61,8 +61,7 @@ export default function Cart() {
               <Cross width={24} height={24} />
             </span>
             <h2 className="pt-6 text-xl font-light text-center">
-              We couldn’t process the purchase. Please check your card
-              information and try again.
+              Não podemos completar essa compra. Verifique as informações do seu cartão e tente novamente.
             </h2>
           </div>
         ) : success ? (
@@ -71,7 +70,7 @@ export default function Cart() {
               <Check />
             </span>
             <h2 className="pt-6 text-xl font-light text-center">
-              Thank you for your order.
+              Obrigado por sua compra.
             </h2>
           </div>
         ) : (
@@ -89,8 +88,7 @@ export default function Cart() {
             </ul>
             <div className="my-6">
               <Text>
-                Before you leave, take a look at these items. We picked them
-                just for you
+              Antes de sair, dê uma olhada nesses itens. Nós os escolhemos apenas para você
               </Text>
               <div className="flex py-6 space-x-6">
                 {[1, 2, 3, 4, 5, 6].map((x) => (
@@ -115,7 +113,7 @@ export default function Cart() {
                   <MapPin />
                 </div>
                 <div className="text-sm text-center font-medium">
-                  <span className="uppercase">+ Add Shipping Address</span>
+                  <span className="uppercase">+ Adicionar Endereço de Entrega</span>
                   {/* <span>
                     1046 Kearny Street.<br/>
                     San Franssisco, California
@@ -129,7 +127,7 @@ export default function Cart() {
                   <CreditCard />
                 </div>
                 <div className="text-sm text-center font-medium">
-                  <span className="uppercase">+ Add Payment Method</span>
+                  <span className="uppercase">+ Adicionar Metodo de pagamento</span>
                   {/* <span>VISA #### #### #### 2345</span> */}
                 </div>
               </div>
@@ -142,11 +140,11 @@ export default function Cart() {
                 <span>{subTotal}</span>
               </li>
               <li className="flex justify-between py-1">
-                <span>Taxes</span>
-                <span>Calculated at checkout</span>
+                <span>Taxas e Frete</span>
+                <span>Calculado no checkout</span>
               </li>
               <li className="flex justify-between py-1">
-                <span>Estimated Shipping</span>
+                <span>Envio Estimado</span>
                 <span className="font-bold tracking-wide">FREE</span>
               </li>
             </ul>
