@@ -81,7 +81,7 @@ const CheckoutSidebarView: FC = () => {
           </li>
           <li className="flex justify-between py-1">
             <span>Taxas</span>
-            <span>Calculadas no Checkout/span>
+            <span>Calculado no checkout</span>
           </li>
           <li className="flex justify-between py-1">
             <span>Entrega</span>
