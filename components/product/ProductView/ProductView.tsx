@@ -48,6 +48,10 @@ const ProductView: FC<ProductViewProps> = ({ product, relatedProducts }) => {
                   </div>
                 ))}
               </ProductSlider>
+              <Text
+        className="pb-4 break-words w-full max-w-xl"
+        html={product.descriptionHtml || product.description}
+      />
             </div>
             {process.env.COMMERCE_WISHLIST_ENABLED && (
               <WishlistButton
@@ -59,10 +63,7 @@ const ProductView: FC<ProductViewProps> = ({ product, relatedProducts }) => {
           </div>
 
           <ProductSidebar key={product.id} product={product} className={s.sidebar} />
-          <Text
-        className="pb-4 break-words w-full max-w-xl"
-        html={product.descriptionHtml || product.description}
-      />
+          
         </div>
         <hr className="mt-7 border-accent-2" />
         <section className="py-12 px-6 mb-10">
