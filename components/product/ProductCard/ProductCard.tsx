@@ -56,9 +56,7 @@ const ProductCard: FC<Props> = ({
                 {...imgProps}
               />
             )}
-            <div className={s.header}>
-              <span>{product.name}</span>
-            </div>
+           
           </>
         )}
 
