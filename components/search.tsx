@@ -180,7 +180,7 @@ export default function Search({ categories, brands }: SearchPropsType) {
                       hidden: !data.found,
                     })}
                   >
-                    Showing {data.products.length} results{' '}
+                    Exibindo {data.products.length} resultados{' '}
                     {q && (
                       <>
                         for "<strong>{q}</strong>"
