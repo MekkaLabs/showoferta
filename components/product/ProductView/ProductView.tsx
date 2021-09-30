@@ -81,21 +81,7 @@ const ProductView: FC<ProductViewProps> = ({ product, relatedProducts }) => {
 
         <div className="p-24">
         <Text html={product.descriptionHtml || product.description} />
-        <div>
-        {process.env.COMMERCE_CART_ENABLED && (
-          <Button
-            aria-label="Adicionar ao carrinho"
-            type="button"
-            className={s.button}
-            onClick={addToCart}            
-            disabled={variant?.availableForSale === false}
-          >
-            {variant?.availableForSale === false
-              ? 'Não disponível'
-              : 'Adiconar ao carrinho'}
-          </Button>
-        )}
-      </div>
+        
         </div>
 
 
