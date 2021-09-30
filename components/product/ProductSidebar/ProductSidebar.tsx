@@ -60,7 +60,7 @@ const ProductSidebar: FC<ProductSidebarProps> = ({ product, className }) => {
       <div>
         {process.env.COMMERCE_CART_ENABLED && (
           <Button
-            aria-label="Adicionar o carrinho"
+            aria-label="Adicionar ao carrinho"
             type="button"
             className={s.button}
             onClick={addToCart}

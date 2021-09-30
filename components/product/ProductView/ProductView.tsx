@@ -60,10 +60,10 @@ const ProductView: FC<ProductViewProps> = ({ product, relatedProducts }) => {
           </div>
 
           <ProductSidebar key={product.id} product={product} className={s.sidebar} />
-          <Text
-        
-        html={product.descriptionHtml || product.description}
-      />
+          
+        </div>
+        <div>
+        <Text html={product.descriptionHtml || product.description} />
         </div>
         <hr className="mt-7 border-accent-2" />
         <section className="py-12 px-6 mb-10">
