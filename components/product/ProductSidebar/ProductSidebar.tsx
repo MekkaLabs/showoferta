@@ -68,8 +68,8 @@ const ProductSidebar: FC<ProductSidebarProps> = ({ product, className }) => {
             disabled={variant?.availableForSale === false}
           >
             {variant?.availableForSale === false
-              ? 'Not Available'
-              : 'Add To Cart'}
+              ? 'Não disponível'
+              : 'Adiconar ao carrinho'}
           </Button>
         )}
       </div>
