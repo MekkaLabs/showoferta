@@ -7,7 +7,7 @@ import type { Product } from '@commerce/types/product'
 import usePrice from '@framework/product/use-price'
 import { WishlistButton } from '@components/wishlist'
 import { ProductSlider, ProductCard } from '@components/product'
-import { Container, Text } from '@components/ui'
+import { Button, Container, Text } from '@components/ui'
 import ProductSidebar from '../ProductSidebar'
 import ProductTag from '../ProductTag'
 interface ProductViewProps {
@@ -62,9 +62,27 @@ const ProductView: FC<ProductViewProps> = ({ product, relatedProducts }) => {
           <ProductSidebar key={product.id} product={product} className={s.sidebar} />
           
         </div>
-        <div>
+
+        <div className="p-24">
         <Text html={product.descriptionHtml || product.description} />
+        <div>
+        {process.env.COMMERCE_CART_ENABLED && (
+          <Button
+            aria-label="Adicionar ao carrinho"
+            type="button"
+            className={s.button}
+            onClick={addToCart}
+            loading={loading}
+            disabled={variant?.availableForSale === false}
+          >
+            {variant?.availableForSale === false
+              ? 'Não disponível'
+              : 'Adiconar ao carrinho'}
+          </Button>
+        )}
+      </div>
         </div>
+
         <hr className="mt-7 border-accent-2" />
         <section className="py-12 px-6 mb-10">
           <Text variant="sectionHeading">Produtos Relacionados</Text>
