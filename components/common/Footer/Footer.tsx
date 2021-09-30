@@ -52,9 +52,15 @@ const Footer: FC<Props> = ({ className, pages }) => {
                 href="https://github.com/vercel/commerce"
               >
                 <Facebook />
-                <Instagram />
+                
               </a>
-              <I18nWidget />
+              <a
+                className={s.link}
+                aria-label="Github Repository"
+                href="https://github.com/vercel/commerce"
+              >
+              <Instagram />
+              </a>
             </div>
           </div>
         </div>
