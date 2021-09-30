@@ -22,6 +22,20 @@ const ProductView: FC<ProductViewProps> = ({ product, relatedProducts }) => {
     currencyCode: product.price.currencyCode!,
   })
 
+  const addToCart = async () => {
+    setLoading(true)
+    try {
+      await addItem({
+        productId: String(product.id),
+        variantId: String(variant ? variant.id : product.variants[0].id),
+      })
+      openSidebar()
+      setLoading(false)
+    } catch (err) {
+      setLoading(false)
+    }
+  }
+
   return (
     <>
       <Container className="max-w-none w-full" clean>
