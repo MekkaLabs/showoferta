@@ -77,6 +77,8 @@ const ProductView: FC<ProductViewProps> = ({ product, relatedProducts }) => {
           
         </div>
 
+
+
         <div className="p-24">
         <Text html={product.descriptionHtml || product.description} />
         <div>
@@ -85,8 +87,7 @@ const ProductView: FC<ProductViewProps> = ({ product, relatedProducts }) => {
             aria-label="Adicionar ao carrinho"
             type="button"
             className={s.button}
-            onClick={addToCart}
-            loading={loading}
+            onClick={addToCart}            
             disabled={variant?.availableForSale === false}
           >
             {variant?.availableForSale === false
@@ -96,6 +97,8 @@ const ProductView: FC<ProductViewProps> = ({ product, relatedProducts }) => {
         )}
       </div>
         </div>
+
+
 
         <hr className="mt-7 border-accent-2" />
         <section className="py-12 px-6 mb-10">
