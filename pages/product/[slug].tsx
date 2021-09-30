@@ -72,7 +72,7 @@ export default function Slug({
   const router = useRouter()
 
   return router.isFallback ? (
-    <h1>Loading...</h1>
+    <h1>Carregando...</h1>
   ) : (
     <ProductView product={product} relatedProducts={relatedProducts} />
   )
