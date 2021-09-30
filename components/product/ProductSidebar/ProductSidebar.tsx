@@ -47,10 +47,12 @@ const ProductSidebar: FC<ProductSidebarProps> = ({ product, className }) => {
         selectedOptions={selectedOptions}
         setSelectedOptions={setSelectedOptions}
       />
+      <Collapse title="Detalhes">
       <Text
         className="pb-4 break-words w-full max-w-xl"
         html={product.descriptionHtml || product.description}
       />
+      </Collapse>
       <div className="flex flex-row justify-between items-center">
         <Rating value={4} />
         <div className="text-accent-6 pr-1 font-medium text-sm">36 reviews</div>
@@ -72,14 +74,11 @@ const ProductSidebar: FC<ProductSidebarProps> = ({ product, className }) => {
         )}
       </div>
       <div className="mt-6">
-        <Collapse title="Care">
-          This is a limited edition production run. Printing starts when the
-          drop ends.
+        <Collapse title="Compra 100% Segura">
+          Sua compra está segura. Nosso sistema de processamento de pagamentos é feito através da Shopify, um das maiores empresas de ecommerce do mundo. Todo o site é protegido por SSL que garante a segurança na transação dos dados, evitando que pessoas má intencionadas tenham acesso a suas informações pessoais.
         </Collapse>
-        <Collapse title="Details">
-          This is a limited edition production run. Printing starts when the
-          drop ends. Reminder: Bad Boys For Life. Shipping may take 10+ days due
-          to COVID-19.
+        <Collapse title="SATISFAÇÃO GARANTIDA OU SEU DINHEIRO DE VOLTA!">
+        Na compra de qualquer produto em nossa loja, você está assegurado em nosso programa de satisfação garantida, onde se você não estiver satisfeito com o produto, basta nos enviar um e-mail para nosso SAC showoferta@gmail.com e nós devolveremos o seu dinheiro, sem complicações..
         </Collapse>
       </div>
     </div>
